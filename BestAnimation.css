@@ -1,0 +1,111 @@
+@keyframes gimme {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 20px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@keyframes gimme2 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    50% {
+        left: 5px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@keyframes hypnosis {
+    0% {
+        background-color: aqua;
+    }
+    20% {
+        background-color: brown;
+    }
+    40% {
+        background-color: greenyellow;
+    }
+    60% {
+        background-color: red;
+    }
+    80% {
+        background-color: darkorange;
+    }
+    100% {
+        background-color: cyan;
+    }
+}
+
+html {
+    position: relative;
+}
+
+h1 {
+    font-family: cursive;
+    position: relative;
+}
+
+p {
+    font-family: cursive;
+}
+
+button {
+    font-family: cursive;
+    font-style: oblique;
+    border-width: medium;
+    border-bottom-color: black;
+    background-color: red;
+    position: relative;
+}
+
+#animatehypnosis {
+    animation-name: hypnosis;
+    animation-duration: 0.01s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+#animatehead {
+    animation-name: gimme;
+    animation-duration: 0.01s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+#moneys {
+    animation-name: gimme2;
+    animation-duration: 0.005s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#backgroundmadness {
+    animation-name: gimme2;
+    animation-duration: 0.005s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+   background-image: url(Pictures/BiggerBackground.PNG);
+    opacity: 0.5;
+}
+#all {
+    margin-left: 35%;
+    margin-right: 35%;
+}
